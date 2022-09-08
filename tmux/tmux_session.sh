@@ -6,11 +6,12 @@ session=$1
 tmux new-session -d -s $session
 
 window=1
-tmux new-window -t $session:$window
-tmux send-keys -t $session:$window "ranger" Enter
-tmux rename-window " Ranger"
-
-window=2
-tmux new-window -t $session:$window -n " Terminal"
+# tmux new-window -t $session:$window
+# tmux send-keys -t $session:$window "ranger" Enter
+# tmux rename-window " Ranger"
+#
+# window=2
+tmux new-window -t $session:$window -n
+tmux rename-window " Terminal"
 
 tmux attach-session -t $session:1

@@ -60,9 +60,6 @@
     "python.linting.pylintEnabled": false,
     "python.formatting.provider": "none",
     "python.defaultInterpreterPath": "/usr/bin/python",
-    "autoDocstring.docstringFormat": "numpy",
-    "autoDocstring.includeName": true,
-    "autoDocstring.startOnNewLine": true,
 
     // CPP - Clang Tidy 
     "clang-tidy.checks": [

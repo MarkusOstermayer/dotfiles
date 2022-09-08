@@ -5,7 +5,8 @@
 - clean: ['~']
 
 - link:
-    ~/.config/Code - OSS/User/settings.json: vscode/settings.json
+    ~/.config/VSCodium/User/settings.json: codium/settings.json
+    ~/.config/VSCodium/product.json: codium/product.json
     ~/.config/ranger/rc.conf: ranger/rc.conf
     ~/.config/ranger/rifle.conf: ranger/rifle.conf
     ~/.config/ranger/rifle.conf: ranger/rifle.conf
@@ -15,7 +16,7 @@
 
 - create:
     - ~/.config
-    - ~/.config/Code - OSS/User/
+    - ~/.config/VSCodium/User/
     
 
 - shell:
